@@ -1,0 +1,36 @@
+.counter-container{
+  border: 2px solid grey;
+  padding: 30px;
+  border-radius: 10px;
+}
+.counter-name{
+  text-align: center;
+  font-size: 80px;
+}
+.counter-container .buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.bn{
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+.input-button{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-button input{
+  flex-grow: 1;
+  margin-right: 12px;
+  background-color: white;
+  border-radius: 10px;
+}
+.input-button button{
+  background-color: rgb(75, 75, 201);
+  padding: 8px;
+  border-radius: 10px;
+}
